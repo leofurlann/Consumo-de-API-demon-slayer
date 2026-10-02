@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #ffffff;
+  color: #000;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+.busca {
+  margin: 20px 0;
+}
+
+.busca label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.busca div {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#btnCarregar {
+  margin-left: 0;
+}
+
+#mensagem {
+  margin: 20px 0;
+}
+
+#listaPersonagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cartao {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+}
+
+.cartao h2 {
+  margin-top: 0;
+}
+
+.cartao p {
+  margin: 8px 0;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Demon Slayer API</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Demon Slayer</h1>
+
+    <p>
+      Consumo de API com JavaScript
+    </p>
+  </header>
+
+  <main>
+
+    <p>
+      Conheça personagens de Demon Slayer usando dados de uma API pública.
+    </p>
+
+    <section class="busca">
+
+      <label for="nomePersonagem">
+        Buscar personagem por nome
+      </label>
+
+      <div>
+        <input
+          type="text"
+          id="nomePersonagem"        >
+
+        <button id="btnBuscar">
+          Buscar
+        </button>
+      </div>
+
+      <button id="btnCarregar">
+        Carregar personagens
+      </button>
+
+    </section>
+
+    <p id="mensagem"></p>
+
+    <section id="listaPersonagens"></section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
